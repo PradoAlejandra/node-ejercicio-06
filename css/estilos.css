@@ -4,24 +4,28 @@
     box-sizing: border-box;
 } */
 
+:root {
+    --color1: #ee6d24;
+    --color2: #775548;
+    --color3: #e1d4cf;
+}
+
 body {
     background-color: #ebebeb;
+    font-family: Verdana, Arial, sans-serif;
 }
 
 .portada {
     width: 100%;
 }
 
-.icono-mapa {
-    text-align: center;
+.link {
+    color: var(--color1);
+    font-weight: 600;
 }
 
-.linea {
-    border-top: 1px solid black;
-    height: 2px;
-    max-width: 200px;
-    padding: 0;
-    margin: 20px auto 0 auto;
+.icono-mapa {
+    text-align: center;
 }
 
 .mapa {
