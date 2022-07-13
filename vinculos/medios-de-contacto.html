@@ -4,21 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel='stylesheet' href='../css/estilos.css'>
     <title>Medios de contacto</title>
 </head>
 <body>
-
+    
+    <img href='../index.html' class='portada' src='../img/camping-la-cumbre.jpg' alt='Imagen de montañas nevadas de fondo y una tienda de acampar roja '>
+    
     <a href='../index.html'>Home</a>
     <a href=''>¿Cómo llegar?</a>
     <a href=''>Tarifas</a>
     <a href='./descuentos.html'>Descuentos</a>
 
-    <h1>Comunicate con nosotros</h1>
+    <h1>Formulario de contacto</h1>
     
-    <h2>Formulario de contacto</h2>
+    <h2>¡Comunicate con nosotros!</h2>
 
     <form>
-        <label></label>
+        <label for='nombre'>Nombre:</label>
+        <input type='text' name='nombre' placeholder='Escriba su nombre aquí' id='nombre'/>
+
+        <label for='apellido'>Apellido:</label>
+        <input type='text' name='apellido' id='apellido' placeholder='Escriba su apellido aquí'>
+
+        <label for='email'>Email:</label>
+        <input type='email' name='email' id='email' placeholder='Escriba su email aquí'>
+        
+        <label for='numero-de-contacto'>Número de contacto:</label>
+        <input type='text' name='numero-de-contacto' id='numero-de-contacto' placeholder='1180808080'>
+
+        <label for='text-area'>Escriba aquí sus comentarios:</label>
+        <textarea type='text-area' name='text-area' id='text-area' placeholder='Aquí puede escribirnos sus comentarios'></textarea>
+
+        <button type='submit'>Enviar</button>
+
     </form>
 </body>
 </html>
