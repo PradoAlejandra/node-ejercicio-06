@@ -24,6 +24,10 @@ body {
     font-weight: 600;
 }
 
+h1 {
+    color: var(--color2);
+}
+
 .icono-mapa {
     text-align: center;
 }
