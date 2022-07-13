@@ -21,13 +21,18 @@ body {
     height: 2px;
     max-width: 200px;
     padding: 0;
-    margin: 20px auto 0 auto
+    margin: 20px auto 0 auto;
 }
 
 .mapa {
     width: 100%;
     height: 30%;
 }
+
+.contenedor-como-llegar {
+    display:flex;
+}
+
 
 .img-tarifas {
     width: 300px;
